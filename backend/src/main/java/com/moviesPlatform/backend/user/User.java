@@ -36,7 +36,7 @@ public class User {
     private String role;
 
     @Column(nullable = false)
-    private boolean enabled = Boolean.TRUE;
+    private Boolean enabled = Boolean.TRUE;
 
     @CreationTimestamp
     @Column(name = "created_at", nullable = false, updatable = false)
