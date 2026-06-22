@@ -31,3 +31,7 @@ build/
 
 ### VS Code ###
 .vscode/
+
+### TLS keystore (do not commit) ###
+src/main/resources/keystore.p12
+*.p12
